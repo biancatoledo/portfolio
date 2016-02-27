@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/mediaqueries.css">
+    <!--             FONT IMPORTS         -->
+     <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+     
+     <!--             RESPONSIVENESS        -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ 
+
+    
+<title>Bianca Toledo | Portfolio</title>
+</head>
+<body>
+
+   <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>            
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact"> Contact</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </nav>       
+    </header>
+<div id="hero"></div>
+    <a name="about"></a>
+        <div class="headerspace"></div> 
+<div class="main"> 
+    <article>
+        <div class="about"> 
+          
+                <div class="paragraph" id="p1"> 
+                “Everything you can imagine is real.” 
+                </div>      
+           
+            <div class="paragraph" id="p2"> 
+                <h1 class="oswald"> ABOUT ME</h1>  
+               
+                <p id="aboutmeinfo"> 
+                    <!-- <div id="star"></div> -->
+                       <ul>
+                        <li>add work as pop up thing</li>
+                        <li>interactive pie charts</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="paragraph" id="p3"> 
+               <h1 class="oswald"> Languages I speak</h1>
+              
+ <div class="item eng">
+    <h3>English</h3>
+    <svg width="80" height="80">
+     <g>
+      <title>Layer 1</title>
+      <circle id="circle" class="circle_animation" r="34.928495" cy="40" cx="40" stroke-width="8" stroke="#3bc2ea" fill="none"/>
+     </g>
+    </svg>
+</div>              
+
+<div class="item tag">
+    <h3>Tagalog</h3>
+    <svg width="80" height="80">
+     <g>
+      <title>Layer 1</title>
+      <circle id="circle" class="circle_animation" r="34.928495" cy="40" cx="40" stroke-width="8" stroke="#ff5fa3" fill="none"/>
+     </g>
+    </svg>
+</div>
+
+
+
+<div class="item chin">
+    <h3>Mandarin</h3>
+    <svg width="80" height="80">
+     <g>
+      <title>Layer 1</title>
+      <circle id="circle" class="circle_animation" r="34.928495" cy="40" cx="40" stroke-width="8" stroke="#894ee8" fill="none"/>
+     </g>
+    </svg>
+</div>
+               
+
+                <!-- <h1 class="oswald">My expertise:</h1>
+                <ul>
+                <img src="images/pie.png">
+                  <li class="c1">Web Development</li>
+                  <li class="c2">Graphic Design</li>
+                  <li class="c3">Video Production</li>
+                  <li class="c4">Music Production</li>
+                  <li class="c5">Programming</li> -->
+              </ul>
+            </div>
+        </div>
+    </article>      
+</div>
+
+
+    <a name="contact"></a>  
+       <div class="headerspace"></div>  
+<div class="main contact">
+    <img src="images/contact.png" class="responsive"><br>
+       <h1 class="oswald">yintoledo95@gmail.com</h1>
+    
+    <div id="socmed">   
+        <a href="http://facebook.com/callofqt"><img src="images/vectors/facebook.png" class="responsive2"></a>
+        <a href="http://youtube.com/callofqt"><img src="images/vectors/youtube.png" class="responsive2"></a>
+        <a href="http://instagram.com/callofqt">
+        <img src="images/vectors/instagram.png" class="responsive2"></a>
+        <a href="http://linkedin.com/pub/bianca-toledo/a6/269/b81/">
+            <img src="images/vectors/linkedin.png"class="responsive2"></a>
+        <a href="http://github.com/biancatoledo"><img src="images/vectors/github.png"class="responsive2"></a>
+        
+    </div>
+</div>
+   
+   <!-- JQUERY LIBRARY     -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+</script>   
+
+
+</body>
+</html>
+
+
+
+

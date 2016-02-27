@@ -1,0 +1,57 @@
+/*                MEDIA QUERIES             */
+
+@media screen and (max-width:300px){
+#hero {
+        height: 0px;
+    background-image: url(/images/bianca2.png);
+    background-size: contain;
+
+}
+    
+}
+@media screen and (max-width:768px) {
+    .main {
+    height: auto;
+}
+    
+ header {
+    position: relative;
+     z-index:2;
+
+}
+    
+    header ul {
+    display: block;
+
+}
+    header li {
+        display: block;
+     text-align: center;
+
+
+    }
+    
+    #hero {
+    background-image:url(/images/bianca2.png);
+        background-position:cover;
+    height: 50vh;
+        z-index: 1;
+        display: block;
+        
+}
+    
+    .about {
+    display: flex;
+    flex-direction: column;
+}
+    
+    .headerspace {
+    height:auto;
+}
+
+    .responsive {
+    width:70%;}
+        .responsive2 {
+    width:100%;}
+    
+}
